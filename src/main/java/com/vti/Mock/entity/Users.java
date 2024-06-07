@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Getter
 @Setter
 @Entity
@@ -27,8 +29,24 @@ public class Users {
     @Column(name = "phone",  length = 15,nullable = false)
     private String phone;
 
+    @Column(name = "date_of_birth", nullable = false)
+    private Date date_of_bith;
 
-    @Column(name = "role", nullable = false)
+    @Column(name = "country",  length = 50,nullable = false)
+    private String country;
+
+    @Column(name = "district",  length = 50,nullable = false)
+    private String district;
+
+
+    @Column(name = "gender")
+    private Gender gender;
+
+    public enum Gender {
+        MALE, FEMALE
+    }
+
+    @Column(name = "role")
     @Enumerated(value = EnumType.STRING)
     private Role role;
 

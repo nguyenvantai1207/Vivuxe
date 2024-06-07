@@ -29,4 +29,7 @@ public class Rentals {
     @Column(name = "end_date",nullable = false)
     private Date end_date;
 
+    @Column(name = "price",nullable = false)
+    private int price;
+
 }

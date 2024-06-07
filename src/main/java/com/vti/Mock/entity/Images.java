@@ -16,23 +16,10 @@ public class Images {
     @Column(name = "image_id")
     private long cars_id;
 
-    @ManyToOne
-    @JoinColumn(
-            name = "cars_id",
-            referencedColumnName = "id",
-            nullable = false
-    )
-    @OnDelete(action = OnDeleteAction.CASCADE)
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "cars_id", referencedColumnName = "id")
     private Cars cars;
 
-    @ManyToOne
-    @JoinColumn(
-            name = "user_id",
-            referencedColumnName = "id",
-            nullable = false
-    )
-    @OnDelete(action = OnDeleteAction.CASCADE)
-    private Users users;
 
     @Column(name = "image_path", length = 250, nullable = false)
     private String image_path;
