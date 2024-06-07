@@ -3,10 +3,7 @@ package com.vti.Mock.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.OnDelete;
-import org.hibernate.annotations.OnDeleteAction;
-import org.hibernate.boot.model.internal.BinderHelper;
-import org.hibernate.engine.internal.Cascade;
+
 
 @Getter
 @Setter
@@ -53,11 +50,11 @@ public class Cars {
     @Column(name = "seats", length = 10, nullable = false)
     private int seats;
 
-    @Column(name = "nhien_lieu", length = 20, nullable = false)
-    private int nhien_lieu;
+    @Column(name = "ingredient", length = 20, nullable = false)
+    private int ingredient;
 
-    @Column(name = "nl_tieu_hao", length = 20, nullable = false)
-    private int nl_tieu_hao;
+    @Column(name = "consumable materials", length = 20, nullable = false)
+    private int consumable_materials;
 
     @Column(name = "bluetooth", nullable = false)
     private int bluetooth;
