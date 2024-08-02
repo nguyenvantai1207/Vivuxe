@@ -1,0 +1,289 @@
+.rental-detail{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .ant-row{
+        width: 100vw;
+        justify-content: center;
+        .ant-col{
+            margin-right: 30px;
+        }
+    }
+}
+
+.detail-1 {
+    display: flex;
+    .img-container{
+        margin-right: 30px;
+        margin-bottom: 20px;
+        >img{
+            max-width: 500px;
+            max-height: 400px;
+        }
+    }
+    .info{
+        align-content: center;
+    }
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 450;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.rental-time{
+    >h2{
+        margin-top: 20px;
+    }
+    .rental-time-info{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+}
+
+.content-section {
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    .rental-time-info{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 40px 0 0;
+
+        span {
+            padding-left: 10px;
+            padding-bottom: 10px;
+            color: #757070;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        p {
+            color: #000;
+            padding-left: 40px;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+
+    .content-section-title {
+        color: #000;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+
+    .collateral-des {
+        border-radius: 10px;
+        background: #FFF1EA;
+        padding: 18px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+
+        span {
+            padding-left: 38px;
+            color: #757070;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .first {
+            margin-top: 12px;
+        }
+
+        .collateral-item {
+            padding-left: 24px;
+        }
+
+        p {
+            color: #000;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+}
+
+.content_nav-hr {
+    margin-top: 36px;
+}
+
+.rental-content-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 24px;
+
+    .item-info-right {
+        border-radius: 10px;
+
+        .item-info-right-title{
+            font-family: 'Quicksand', sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 650;
+        }
+
+        .item-info-row{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .item-info-1{
+            font-family: 'Quicksand', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        .price-detail {
+            color: #000;
+            font-family: Inter;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 24px;
+        }
+
+        .info-right-hr {
+            background: #8D8D8D;
+            height: 1px;
+            margin: 10px 0;
+        }
+
+        .total_money {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 6px;
+
+            span {
+                color: #777;
+                text-align: right;
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            p {
+                color: #000;
+                text-align: right;
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 24px;
+            }
+        }
+
+        .rent {
+            cursor: pointer;
+            border-radius: 10px;
+            border: 1px solid #6D6D6D;
+            background: rgba(98, 222, 250, 0.64);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            p {
+                color: #000;
+                font-family: Inter;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                padding: 16px 0;
+
+                &::before {
+                    content: url('/images/lighting.png');
+                    margin-right: 16px;
+                }
+
+            }
+
+
+        }
+
+        .surcharges {
+            color: #000;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-left: -8px;
+        }
+
+        .container-surcharges {
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            .item-surcharges {
+                display: flex;
+                position: relative;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 8px;
+                }
+
+                p {
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                span {
+                    color: #757575;
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                .price {
+                    position: absolute;
+                    right: 0;
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

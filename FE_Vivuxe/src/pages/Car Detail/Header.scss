@@ -1,0 +1,86 @@
+$color-primary: #4a90e2;
+$color-text: #000;
+$color-background: #f0f0f0;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 45px;
+    padding-left: 12px;
+
+    &__logo {
+        display: flex;
+
+        &-img {
+            height: 160px;
+        }
+
+        &__text {
+            font-family: 'Jua', sans-serif;
+            display: flex;
+            align-items: center;
+            color: #1869A3;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+
+
+    &__nav {
+        display: flex;
+
+        &-list {
+            display: flex;
+            list-style-type: none;
+        }
+
+        &-item {
+            margin-right: 26px;
+            color: #000;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding: 14px;
+        }
+
+        &-link {
+            text-decoration: none;
+            color: $color-text;
+
+            &:hover {
+                color: $color-primary;
+            }
+
+            // &--highlight {
+            //     color: $color-primary;
+
+            // }
+        }
+
+        .auth {
+            padding-left: 20px;
+            border-left: 3px solid #787878;
+
+            .login {
+                border-radius: 10px;
+                border: 1px solid #000;
+                background: rgba(217, 217, 217, 0.00);
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.header__nav-hr {
+    height: 1px;
+    margin: 0 80px;
+    margin-top: -20px;
+    background: #787878;
+    margin-bottom: 80px;
+}

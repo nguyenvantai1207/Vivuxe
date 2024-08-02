@@ -1,0 +1,72 @@
+[
+    {
+        "userUserId": 1001,
+        "carCarId": 2001,
+        "rentalDate": "2024-01-10",
+        "rentalReturn": "2024-01-17",
+        "status": "CONFIRM"
+    },
+    {
+        "userUserId": 1002,
+        "carCarId": 2002,
+        "rentalDate": "2024-02-05",
+        "rentalReturn": "2024-02-12",
+        "status": "PENDING"
+    },
+    {
+        "userUserId": 1003,
+        "carCarId": 2003,
+        "rentalDate": "2024-03-15",
+        "rentalReturn": "2024-03-22",
+        "status": "CANCELLED"
+    },
+    {
+        "userUserId": 1004,
+        "carCarId": 2004,
+        "rentalDate": "2024-04-20",
+        "rentalReturn": "2024-04-27",
+        "status": "CONFIRM"
+    },
+    {
+        "userUserId": 1005,
+        "carCarId": 2005,
+        "rentalDate": "2024-05-10",
+        "rentalReturn": "2024-05-17",
+        "status": "PENDING"
+    },
+    {
+        "userUserId": 1006,
+        "carCarId": 2006,
+        "rentalDate": "2024-06-05",
+        "rentalReturn": "2024-06-12",
+        "status": "CANCELLED"
+    },
+    {
+        "userUserId": 1007,
+        "carCarId": 2007,
+        "rentalDate": "2024-07-15",
+        "rentalReturn": "2024-07-22",
+        "status": "CONFIRM"
+    },
+    {
+        "userUserId": 1008,
+        "carCarId": 2008,
+        "rentalDate": "2024-08-20",
+        "rentalReturn": "2024-08-27",
+        "status": "PENDING"
+    },
+    {
+        "userUserId": 1009,
+        "carCarId": 2009,
+        "rentalDate": "2024-09-05",
+        "rentalReturn": "2024-09-12",
+        "status": "CANCELLED"
+    },
+    {
+        "userUserId": 1010,
+        "carCarId": 2010,
+        "rentalDate": "2024-10-10",
+        "rentalReturn": "2024-10-17",
+        "status": "CONFIRM"
+    }
+]

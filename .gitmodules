@@ -1,0 +1,3 @@
+[submodule "BE_Vivuxe"]
+	path = BE_Vivuxe
+	url = git@github.com:nguyenvantai1207/BE_Vivuxe.git

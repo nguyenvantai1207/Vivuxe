@@ -1,0 +1,115 @@
+.rental-form {
+    margin-bottom: 24px;
+
+    input,
+    select {
+        border: none;
+        outline: none;
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .date-section {
+        padding: 16px;
+        border-radius: 10px;
+        border: 1px solid #6D6D6D;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        position: relative;
+        padding-right: 0;
+
+        hr {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 100%;
+            border: none;
+            border-left: 1px solid #6D6D6D;
+        }
+
+        .date-box {
+            flex: 1;
+
+            // &:first-child {
+            //     margin-right: 5px;
+            //     margin-left: 8px;
+            // }
+
+            label {
+                color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            input {
+                width: 94%;
+                max-width: 160px;
+            }
+
+            .custom-datetime {
+                position: relative;
+                margin-top: 8px;
+
+                &::-webkit-calendar-picker-indicator {
+                    display: none;
+                    -webkit-appearance: none;
+                }
+
+                &::-webkit-inner-spin-button,
+                &::-webkit-outer-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+
+                &::-webkit-datetime-edit-fields-wrapper {
+                    padding: 0;
+                }
+
+                &::-webkit-datetime-edit {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .location-section {
+        padding: 16px;
+        border-radius: 10px;
+        border: 1px solid #6D6D6D;
+        background: #FFF;
+        position: relative;
+
+        label {
+            color: #000;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        select {
+            width: 100%;
+            appearance: none;
+            margin-top: 8px;
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+            background-size: 8px;
+        }
+
+        img {
+            position: absolute;
+            right: 16px;
+        }
+    }
+}

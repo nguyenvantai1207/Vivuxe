@@ -1,0 +1,327 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(../../font/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+.home-page {
+  background-color: #e0f4ff;
+  height: 100%;
+  width: 100vw;
+  padding-top: 20px;
+  font-family: Quicksand;
+}
+
+.search-box {
+  background-color: white;
+  height: 120px;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  .pr-content {
+    color: black;
+    font-family: Quicksand;
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+
+
+.pr-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  .location-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #e0f4ff;
+  }
+
+  .image-card {
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .pr-image {
+      position: relative;
+      height: 450px;
+      margin: 11px;
+
+      img {
+        display: "flex";
+        width: 296px;
+        height: 425px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+    }
+
+    .pr-title {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 350px;
+      right: 150px;
+    }
+  }
+}
+
+.car-deliver {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.deliver-title {
+  color: black;
+  font-family: Quicksand;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.airport-title {
+  color: black;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+// CarList.scss
+body {
+    background: #E0F4FF;
+  }
+  
+  .car-list {
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    padding: 36px 100px 0;
+    // background: #E0F4FF;
+    font-family: Inter, sans-serif;
+  
+    .title {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 30px;
+      color: #000;
+      font-family: "Baloo Bhai 2", sans-serif;
+      font-optical-sizing: auto;
+      font-size: 55px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  
+    .car-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(271px, 1fr));
+      gap: 50px;
+    }
+  
+    .car-card {
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      border-radius: 10px;
+      border: 1px solid #D9D9D9;
+      background: #FFF;
+      margin-bottom: 27px;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      .car-image {
+        position: relative;
+        margin: 11px;
+  
+        img {
+          width: 100%;
+          border-radius: 10px;
+          height: 200px;
+          object-fit: cover;
+        }
+  
+        .car-set,
+        .mortgage {
+          position: absolute;
+          top: 14px;
+          left: 8px;
+          border-radius: 15px;
+          background: rgba(0, 0, 0, 0.48);
+          padding: 3px 8px;
+          color: #FFF;
+          font-size: 10px;
+        }
+  
+        .car-set::after {
+          content: url('./images/set.png');
+          margin-left: 5px;
+        }
+  
+        .mortgage {
+          top: 42px;
+        }
+  
+        .mortgage::after {
+          content: url('./images/mortgage.png');
+          margin-left: 5px;
+        }
+  
+        .single {
+          top: 14px;
+          left: 8px;
+        }
+  
+        .car-set.single::after {
+          content: url('./images/set.png');
+          margin-left: 5px;
+        }
+  
+        .mortgage.single {
+          top: 14px;
+        }
+  
+        .mortgage.single::after {
+          content: url('./images/mortgage.png');
+          margin-left: 5px;
+        }
+  
+        .discount {
+          position: absolute;
+          right: 20px;
+          bottom: -8px;
+          border-radius: 20px;
+          background: #FF5722;
+          color: #FFF;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding: 4px 8px;
+        }
+      }
+  
+      .car-info {
+        padding: 11px;
+  
+        h2 {
+          margin: 0 0 10px;
+          font-size: 18px;
+          color: #333;
+        }
+  
+        p {
+          margin: 5px 0;
+          color: #A6A6A6;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+  
+        .automatic_number {
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #DCF7FF;
+          width: 99px;
+          height: 26px;
+          flex-shrink: 0;
+          color: #000;
+          font-size: 15px;
+          font-weight: 300;
+          margin-bottom: 18px;
+          margin-top: 0;
+        }
+  
+        .location {
+          padding-bottom: 8px;
+          margin-left: 5px;
+        }
+  
+        .location::before {
+          content: url('./images/Location.png');
+          margin-right: 5px;
+        }
+  
+        .bottom_card {
+          display: flex;
+          justify-content: space-between;
+          padding-top: 6px;
+          border-top: 1px solid #D9D9D9;
+        }
+  
+        .trips::before {
+          content: url('./images/trip.png');
+          margin-right: 5px;
+        }
+  
+        .price {
+          color: #31FFA9;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+  
+          .real_money {
+            color: #D9D9D9;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-decoration: line-through;
+          }
+  
+          .date {
+            color: #A6A6A6;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+  
+  // Responsive styles
+  @media (max-width: 768px) {
+    .car-list {
+      .car-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .car-list {
+      .car-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  }

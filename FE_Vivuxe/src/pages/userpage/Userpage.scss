@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(../../font/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+.body {
+  background-color: #e0f4ff;
+  height: 100%;
+  width: 100vw;
+  position: relative;
+  font-family: Quicksand;
+}
+
+.main-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  justify-content: center;
+
+  .menu-container {
+    background-color: #e0f4ff;
+    height: 400px;
+    width: 350px;
+
+    .wellcome-title {
+      color: black;
+      font-family: Quicksand;
+      font-size: 30px;
+      font-weight: 600;
+      margin-left: 15px;
+    }
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+
+    .info-card {
+      display: flex;
+      margin-bottom: 30px;
+
+      .info-left {
+        margin-left: 100px;
+        // margin-top: 20px;
+      }
+      
+      .info-right {
+        position: absolute;
+        left: 380px;
+        bottom: 30px;
+
+        .user-info {
+          height: 220px;
+          width: 450px;
+          background-color: #D9D9D9;
+        }
+      }
+    }
+
+    .change-pass-card {
+      display: flex;
+
+      .input-passChange {
+        width: 600px;
+      }
+
+      .subbmit-button-container {
+        margin-left: 470px;
+
+        .submit-button {
+          height: 30px;
+          width: 100px;
+        }
+      }
+    }
+  }
+
+}
+
+.change-pass-card-info{
+  margin-left: 100px;
+
+  .change-pass-title{
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(../../font/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: Quicksand;
+}
+
+.body {
+  background-color: #e0f4ff;
+  height: 100%;
+  width: 100vw;
+}
+
+.carregister-page {
+  display: block;
+}
+
+.title {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.carregister-card {
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.warning {
+  font-size: 15px;
+  color: #ff1718;
+}
+
+.info-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.carinfo-input {
+  width: 390px;
+}
+
+.toggle-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.button-container {
+  display: flex;
+  // margin-top: 200px;
+}
+
+.cancel-button {
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  background-color: #62DEFA;
+  margin-left: 80px;
+}
+
+.submit-button {
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  background-color: #62DEFA;
+  margin-left: 30px;
+}
+

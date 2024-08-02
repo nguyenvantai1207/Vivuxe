@@ -1,0 +1,19 @@
+.ant-modal{
+    .ant-modal-content{
+        width: 400px;
+    }
+
+    .ant-modal-header {
+        text-align: center;
+        .ant-modal-title{
+            font-size: 20px;
+        }
+    }
+
+    .ant-modal-footer{
+        text-align: center;
+        >button {
+            width: 200px;
+        }
+    }
+}

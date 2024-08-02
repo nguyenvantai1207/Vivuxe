@@ -1,0 +1,151 @@
+{
+    "username": "JohnDoe123",
+    "password": "Password123",
+    "email": "john.doe@example.com",
+    "phone": "1234567890",
+    "dob": "1990-01-15",
+    "driverLicense": "D1234567",
+    "accountNumber": "1234567890123456",
+    "fullName": "John Doe",
+    "bankName": "Bank Of America",
+    "address": "123 Elm Street, Springfield, IL",
+    "gender": "Male",
+    "role": "USER"
+}
+
+{
+    "username": "JaneSmith89",
+    "password": "SecurePass1",
+    "email": "jane.smith@example.com",
+    "phone": "0987654321",
+    "dob": "1989-02-20",
+    "driverLicense": "S9876543",
+    "accountNumber": "6543210987654321",
+    "fullName": "Jane Smith",
+    "bankName": "Chase Bank",
+    "address": "456 Oak Street, Metropolis, NY",
+    "gender": "Female",
+    "role": "ADMIN"
+}
+
+{
+    "username": "MikeBrown99",
+    "password": "MyPassword99",
+    "email": "mike.brown@example.com",
+    "phone": "1122334455",
+    "dob": "1999-05-10",
+    "driverLicense": "B1122334",
+    "accountNumber": "1111222233334444",
+    "fullName": "Mike Brown",
+    "bankName": "Wells Fargo",
+    "address": "789 Pine Street, Gotham, NJ",
+    "gender": "Male",
+    "role": "USER"
+}
+
+{
+    "username": "AliceGreen77",
+    "password": "AlicePass77",
+    "email": "alice.green@example.com",
+    "phone": "6677889900",
+    "dob": "1977-07-25",
+    "driverLicense": "G6677889",
+    "accountNumber": "5555666677778888",
+    "fullName": "Alice Green",
+    "bankName": "Citibank",
+    "address": "101 Maple Street, Star City, CA",
+    "gender": "Female",
+    "role": "USER"
+}
+
+{
+    "username": "CharlieWhite55",
+    "password": "CharPass55",
+    "email": "charlie.white@example.com",
+    "phone": "2233445566",
+    "dob": "1955-09-30",
+    "driverLicense": "W2233445",
+    "accountNumber": "9999000011112222",
+    "fullName": "Charlie White",
+    "bankName": "Goldman Sachs",
+    "address": "202 Birch Street, Central City, TX",
+    "gender": "Male",
+    "role": "ADMIN"
+}
+
+
+==============================Update=================================
+{
+    "username": "JohnDoe123",
+    "password": "NewPassword456",
+    "email": "john.doe.updated@example.com",
+    "phone": "1234567891",
+    "dob": "1990-01-15",
+    "driverLicense": "D1234567",
+    "accountNumber": "1234567890123457",
+    "fullName": "John Doe",
+    "bankName": "Bank Of America",
+    "address": "123 Elm Street, Springfield, IL",
+    "gender": "Male",
+    "role": "USER"
+}
+
+{
+    "username": "JaneSmith89",
+    "password": "UpdatedSecurePass2",
+    "email": "jane.smith.updated@example.com",
+    "phone": "0987654322",
+    "dob": "1989-02-20",
+    "driverLicense": "S9876543",
+    "accountNumber": "6543210987654322",
+    "fullName": "Jane Smith",
+    "bankName": "Chase Bank",
+    "address": "456 Oak Street, Metropolis, NY",
+    "gender": "Female",
+    "role": "ADMIN"
+}
+
+{
+    "username": "MikeBrown99",
+    "password": "UpdatedPassword100",
+    "email": "mike.brown.updated@example.com",
+    "phone": "1122334456",
+    "dob": "1999-05-10",
+    "driverLicense": "B1122334",
+    "accountNumber": "1111222233334445",
+    "fullName": "Mike Brown",
+    "bankName": "Wells Fargo",
+    "address": "789 Pine Street, Gotham, NJ",
+    "gender": "Male",
+    "role": "USER"
+}
+
+{
+    "username": "AliceGreen77",
+    "password": "UpdatedAlicePass78",
+    "email": "alice.green.updated@example.com",
+    "phone": "6677889901",
+    "dob": "1977-07-25",
+    "driverLicense": "G6677889",
+    "accountNumber": "5555666677778889",
+    "fullName": "Alice Green",
+    "bankName": "Citibank",
+    "address": "101 Maple Street, Star City, CA",
+    "gender": "Female",
+    "role": "USER"
+}
+
+{
+    "username": "CharlieWhite55",
+    "password": "UpdatedCharPass56",
+    "email": "charlie.white.updated@example.com",
+    "phone": "2233445567",
+    "dob": "1955-09-30",
+    "driverLicense": "W2233445",
+    "accountNumber": "9999000011112223",
+    "fullName": "Charlie White",
+    "bankName": "Goldman Sachs",
+    "address": "202 Birch Street, Central City, TX",
+    "gender": "Male",
+    "role": "ADMIN"
+}
